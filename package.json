@@ -6,7 +6,7 @@
   "scripts": {
     "test": "playwright test --headed",
     "rest:headless": "playwright test",
-    "test:reporter": " playwright test --headed --project chromium --reporter=allure-playwright ,line",
+    "test:reporter": " playwright test  --reporter=allure-playwright ,line",
     "allure-report": "allure generate ./allure-results  && allure open "
   },
   "keywords": [],
